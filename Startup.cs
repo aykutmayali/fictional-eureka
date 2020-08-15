@@ -32,11 +32,19 @@ namespace WebApp_1
             });
 
             services.AddDbContext<DashboardDBContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DevConnection")));
+
+            services.AddCors();                                                     // **** --- ***** 
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+
+            app.UseCors(options => options.WithOrigins("http://localhost:3001")     // **** --- ***** 
+            .AllowAnyHeader()
+            .AllowAnyMethod()
+            );                                                                      // **** --- ***** 
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
