@@ -1,8 +1,8 @@
-"# fictional-eureka" a project for React CRUD with .netcore 
+# fictional-eureka" a project for React CRUD with .netcore 
 
 - install nuget package:  Microsoft.EntityFrameworkCore 3.1.0(because of dependencies - frameworks - .net core app version = 3.1.0)
--  //      //    //       Microsoft.EntityFrameworkCore.SqlServer
--  //      //    //       Microsoft.EntityFrameworkCore.Tools   
+- install nuget package:     Microsoft.EntityFrameworkCore.SqlServer
+- install nuget package:      Microsoft.EntityFrameworkCore.Tools   
 
 
 - add [Key] , [Column(TypeName ="nvarchar(100)")] Data Annotaions to Model Classes
