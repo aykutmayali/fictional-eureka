@@ -49,8 +49,9 @@
 - in index.css @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap'); (google font)
 - \beacons\WebApi_1\react-app>npm i -s redux react-redux redux-thunk
 
-- \beacons\WebApi_1\react-app>npm i -s axios
+- \beacons\WebApi_1\react-app> npm i -s axios
 - \beacons\WebApi_1\react-app> npm i -s @material-ui/core @material-ui/icons
+- \beacons\WebApi_1\react-app> npm -i -s react-toast-notifications
 
 -----------------------------------------------------
 
